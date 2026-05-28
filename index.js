@@ -52,3 +52,6 @@ ${m.teams.home.name} ${m.goals.home} - ${m.goals.away} ${m.teams.away.name}
 });
 
 console.log("Bot running...");
+setInterval(() => {
+  console.log("Bot alive...");
+}, 60000);
